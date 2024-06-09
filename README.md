@@ -5,13 +5,24 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/xiaocan66/HowToCook)](https://github.com/xiaocan66/HowToCook/graphs/contributors)
 [![npm](https://img.shields.io/npm/v/how-to-cook)](https://www.npmjs.com/package/how-to-cook)
 ![Man hours](https://manhours.aiursoft.cn/r/github.com/xiaocan66/howtocook.svg)
-[![Docker](https://img.shields.io/badge/docker-latest-blue?logo=docker)](https://github.com/xiaocan66/HowToCook/pkgs/container/how-to-cook)
+[![Docker](https://img.shields.io/badge/docker-latest-blue?logo=docker)](https://github.com/Anduin2017/HowToCook/pkgs/container/how-to-cook)
 
-作为程序员，我偶尔在网上找找菜谱和做法。但是这些菜谱往往写法千奇百怪，经常中间莫名出来一些材料。对于习惯了形式语言的程序员来说极其不友好。
+作为程序员，偶尔会在网上寻找菜谱和做法时，常常会遇到写法不规范、描述不清的情况，甚至中途还会出现一些意外的材料。对于习惯了形式语言和精确指令的程序员来说，这样的菜谱极其不友好。
 
-所以，我计划自己搜寻菜谱并结合实际做菜的经验，准备用更清晰精准的描述来整理常见菜的做法，以方便程序员在家做饭。
+因此，计划搜集菜谱并结合实际做菜的经验，用更清晰、精准的描述整理常见菜肴的做法，以方便程序员在家烹饪。
 
-同样，我希望它是一个由社区驱动和维护的开源项目，使更多人能够一起做一个有趣的仓库。所以非常欢迎大家贡献它~
+此外，这将是一个由社区驱动和维护的开源项目，旨在让更多人一起参与创建一个有趣且实用的菜谱库，欢迎大家积极贡献！
+
+## 本地部署
+
+如果需要在本地部署菜谱 Web 服务，可以在安装 Docker 后运行下面命令：
+
+```bash
+docker build -t how-to-cook .
+docker run -itd -p 5000:5000 how-to-cook
+```
+
+如需下载 PDF 版本，可以在浏览器中访问 [/document.pdf](./document.pdf)
 
 ## 如何贡献
 
